@@ -52,7 +52,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cj2syn70wahfu01604f4axbaf node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
